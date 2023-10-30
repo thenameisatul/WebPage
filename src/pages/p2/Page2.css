@@ -1,0 +1,43 @@
+
+
+.Page2 {
+    text-align: left;
+    background-image: url("./adrien-olichon-ilVYjf0J378-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  
+  
+  
+  .Page2-header {
+    margin-top: 180px; /* Adjust the value to position the header as desired */
+    position: relative;
+    left: 320px;
+    font-size: 22px;
+    color: white;
+    
+     /* You can use relative, absolute, fixed, or other positioning based on your needs */
+  }
+
+  .Page2-header img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    border-radius: 5px; /* Add rounded corners */
+  }
+
+
+  
+  .vertical-line {
+    width: 2px; /* Adjust the width as needed */
+    background-color: black;
+    height: 220%; /* Adjust the height as needed */
+    position: absolute;
+    left: -4%; /* Adjust the left position to center it */
+    transform: translateX(-50%);
+    top: -45px;
+  }
+  

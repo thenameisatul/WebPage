@@ -1,0 +1,53 @@
+
+  
+ .Page1 {
+  text-align: left;
+  background-image: url("./pexels-scott-webb-305821.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 0; /* To remove the margin at the top if you want the image to fully cover the page */
+}
+
+  
+  
+  
+  .Page1-header {
+    margin-top: 180px; /* Adjust the value to position the header as desired */
+    position: relative;
+    left: 320px;
+    font-size: 22px;
+    
+     /* You can use relative, absolute, fixed, or other positioning based on your needs */
+  }
+  
+  .vertical-line {
+    width: 2px; /* Adjust the width as needed */
+    background-color: black;
+    height: 220%; /* Adjust the height as needed */
+    position: absolute;
+    left: -4%; /* Adjust the left position to center it */
+    transform: translateX(-50%);
+    top: -45px;
+  }
+  
+  .green-button {
+    
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px; /* Adjust the padding as needed */
+    border: 2px solid green; /* Add a green border */
+    border-radius: 5px; /* Adjust the border-radius for rounded corners */
+    cursor: pointer;
+    position: absolute;
+    top: 220px; /* Adjust the bottom position */
+    left: 1px;
+    font-size:15px; /* Adjust the left position */
+  }
+  
+  
+  
+  
+  
+  
+  
